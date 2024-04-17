@@ -1,0 +1,23 @@
+There are 2 different ways:
+
+Option A - Through console
+
+1) Start the game
+2) Open console by pressing Shift and Tidle (the key under ESC) keys
+3) Write the following
+
+seta r_customwidth (your resolution width, for example 1920)
+seta r_customheight (your resolution height, for example 1080)
+seta r_mode -1
+vid_restart
+
+4) Done.
+
+Option B - Through an "autoexec" file
+
+1) Go to the game's folder (Default is C:/Program Files (x86)/Steam/steamapps/common/Jedi Academy)
+2) Go to GameData and open Base
+3) Create a new text file
+4) Open the new text file and write the above commands (seta r_customwidth, height etc.)
+5) Save the file as "autoexec.cfg", not "autoexec.txt"
+6) Done - the file will run automatically every time you start the game
